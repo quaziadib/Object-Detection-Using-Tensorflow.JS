@@ -71,7 +71,7 @@ function predictWebcam(){
     });
 }
 
-var model = true;
+var model = undefined;
 
 cocoSsd.load().then(function(loadedModel){
     model = loadedModel;
